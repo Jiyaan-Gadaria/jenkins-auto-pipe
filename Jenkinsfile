@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('build') {
+      steps {
+        echo 'Jenkin\'s last session'
+      }
+    }
+
   }
 }
